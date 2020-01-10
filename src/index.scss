@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    padding: 20px;
+}
+h2{
+    padding: 10px;
+}
+.game{
+    margin: 0 auto;
+    width: 75vw;
+    height: 75vh;
+}
+.boardRow{
+display: flex;
+flex-direction: row;
+}
+
+.casilla{
+    text-align: center;
+    border: 1px #999 solid;
+    width: 25vw;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    font-size: 80px;
+
+}
